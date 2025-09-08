@@ -483,7 +483,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@1.2 \
     btaudio_offload_if \
     audio.bluetooth_qti.default \
-    audio.primary.bengal \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     libAlacSwDec \
@@ -508,7 +507,6 @@ PRODUCT_PACKAGES += \
     libOmxSwVencMpeg4 \
     libOmxVideoDSMode \
     libOmxWmaDec \
-    liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
@@ -520,20 +518,16 @@ PRODUCT_PACKAGES += \
     libaudioalsa \
     libaudioconfigstore \
     libaudioparsers \
-    libbatterylistener \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
-    libcirrusspkrprot \
     libcomprcapture \
     libdrc \
     libdsd2pcm \
-    libexthwplugin \
     libfastcrc \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
-    libhdmiedid \
     libhdmipassthru \
     libhfp \
     liblistensoundmodel2 \
@@ -543,8 +537,6 @@ PRODUCT_PACKAGES += \
     libmulawdec \
     libqtigef \
     libsmwrapper \
-    libsndmonitor \
-    libspkrprot \
     libssrec \
     libsurround_3mic_proc \
     libwfdcodecv4l2_proprietary \

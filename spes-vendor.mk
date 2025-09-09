@@ -1198,4 +1198,12 @@ PRODUCT_PACKAGES += \
     xtwifi-client \
     xtwifi-inet-agent \
     dpmd \
-    wfdservice
+    wfdservice \
+    audio.primary.bengal \
+    liba2dpoffload \
+    libbatterylistener \
+    libcirrusspkrprot \
+    libexthwplugin \
+    libhdmiedid \
+    libsndmonitor \
+    libspkrprot \

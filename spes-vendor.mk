@@ -140,7 +140,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
     vendor/xiaomi/spes/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/spes/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
-    vendor/xiaomi/spes/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/xiaomi/spes/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/xiaomi/spes/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/spes/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
@@ -185,7 +184,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/spes/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/xiaomi/spes/proprietary/vendor/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.displayfeature@1.0-service.rc \
-    vendor/xiaomi/spes/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
     vendor/xiaomi/spes/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/xiaomi/spes/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/xiaomi/spes/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -206,9 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
     vendor/xiaomi/spes/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
     vendor/xiaomi/spes/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
-    vendor/xiaomi/spes/proprietary/vendor/etc/seccomp_policy/wfdhdcphalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdhdcphalservice.policy \
-    vendor/xiaomi/spes/proprietary/vendor/etc/seccomp_policy/wfdvndservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wfdvndservice.policy \
-    vendor/xiaomi/spes/proprietary/vendor/etc/seccomp_policy/wifidisplayhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/wifidisplayhalservice.policy \
     vendor/xiaomi/spes/proprietary/vendor/etc/sensor_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sensor_diag.cfg \
     vendor/xiaomi/spes/proprietary/vendor/etc/sensors/config/bengal_adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_adux1050_0.json \
     vendor/xiaomi/spes/proprietary/vendor/etc/sensors/config/bengal_bu27030_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bengal_bu27030_0.json \
@@ -284,7 +279,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/spes/proprietary/vendor/etc/thermal-videochat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-videochat.conf \
     vendor/xiaomi/spes/proprietary/vendor/etc/thermal-youtube.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-youtube.conf \
     vendor/xiaomi/spes/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/spes/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/spes/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/xiaomi/spes/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
     vendor/xiaomi/spes/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
@@ -487,7 +481,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
     libAlacSwDec \
     libApeSwDec \
-    libFileMux_proprietary \
     libFlacSwDec \
     libMpeg4SwEncoder \
     libOmxAacDec \
@@ -531,42 +524,17 @@ PRODUCT_PACKAGES += \
     libhdmipassthru \
     libhfp \
     liblistensoundmodel2 \
-    libmm-hdcpmgr \
-    libmmrtpdecoder_proprietary \
-    libmmrtpencoder_proprietary \
     libmulawdec \
     libqtigef \
     libsmwrapper \
     libssrec \
     libsurround_3mic_proc \
-    libwfdcodecv4l2_proprietary \
-    libwfdcommonutils_proprietary \
-    libwfdconfigutils_proprietary \
-    libwfddisplayconfig_proprietary \
-    libwfdhdcpcp \
-    libwfdhdcpservice_proprietary \
-    libwfdmminterface_proprietary \
-    libwfdmmservice_proprietary \
-    libwfdmmsrc_proprietary \
-    libwfdmodulehdcpsession \
-    libwfdrtsp_proprietary \
-    libwfdsessionmodule \
-    libwfdsourcesession_proprietary \
-    libwfdsourcesm_proprietary \
-    libwfduibcinterface_proprietary \
-    libwfduibcsink_proprietary \
-    libwfduibcsinkinterface_proprietary \
-    libwfduibcsrc_proprietary \
-    libwfduibcsrcinterface_proprietary \
-    libwfdutils_proprietary \
     libasphere \
     libmisoundfx \
     libqcbassboost \
     libqcreverb \
     libqcvirt \
     libshoebox \
-    vendor.qti.hardware.wifidisplaysession@1.0_vendor \
-    vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     android.hardware.camera.provider@2.4-external \
     android.hardware.camera.provider@2.4-legacy \
     camera.device@1.0-impl \
@@ -1191,9 +1159,6 @@ PRODUCT_PACKAGES += \
     tftp_server \
     time_daemon \
     vendor.qti.qspmhal@1.0-service \
-    wfdhdcphalservice \
-    wfdvndservice \
-    wifidisplayhalservice \
     xtra-daemon \
     xtwifi-client \
     xtwifi-inet-agent \

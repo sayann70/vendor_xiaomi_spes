@@ -1078,4 +1078,7 @@ PRODUCT_PACKAGES += \
     sound_trigger.primary.bengal \
     libcapiv2svacnn \
     libcapiv2svarnn \
-    libcapiv2vop
+    libcapiv2vop \
+    libOmxCore \
+    libOmxVdec \
+    libOmxVenc

@@ -1083,15 +1083,4 @@ PRODUCT_PACKAGES += \
     libcapiv2vop \
     libOmxCore \
     libOmxVdec \
-    libOmxVenc \
-    android.hardware.camera.provider@2.4-external \
-    android.hardware.camera.provider@2.4-legacy \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-external-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-external-impl \
-    camera.device@3.5-impl \
-    camera.device@3.6-external-impl \
-    vendor.qti.hardware.camera.device@3.5 \
+    libOmxVenc

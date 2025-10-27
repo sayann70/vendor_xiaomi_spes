@@ -1075,10 +1075,6 @@ PRODUCT_PACKAGES += \
     libhdmiedid \
     libsndmonitor \
     libspkrprot \
-    sound_trigger.primary.bengal \
     libcapiv2svacnn \
     libcapiv2svarnn \
-    libcapiv2vop \
-    libOmxCore \
-    libOmxVdec \
-    libOmxVenc
+    libcapiv2vop

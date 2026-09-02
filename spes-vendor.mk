@@ -604,7 +604,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.dsi.ant@1.0-impl \
     com.qti.chi.override \
-    consumerir.bengal \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
     sensors.elliptic@2.0 \

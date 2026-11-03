@@ -709,6 +709,7 @@ PRODUCT_PACKAGES += \
     libkeymasterprovision \
     libkeymasterutils \
     liblbs_core \
+    liblocdiagiface.so \
     libloc_api_v02 \
     libloc_api_wds \
     libloc_core \

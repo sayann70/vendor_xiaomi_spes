@@ -792,6 +792,7 @@ PRODUCT_PACKAGES += \
     libsoc_helper \
     libsoc_helper_jni \
     libssc \
+    libspl \
     libssc_default_listener \
     libssd \
     libst_sr_models \
